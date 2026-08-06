@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "cloud.spliit.companion.twa",
+        "sha256_cert_fingerprints": ["E1:A4:C3:CB:EC:8B:C9:FB:56:5D:8A:0F:C9:2E:B8:1C:0C:00:9B:18:7E:1A:CC:79:A7:15:0D:C6:28:F6:3D:00"]
+      }
+    }]
