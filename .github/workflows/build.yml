@@ -20,7 +20,7 @@ jobs:
 
       - name: Decode keystore
         run: |
-          echo "$KEYSTORE_FILE" | base64 --decode > signing.keystore
+          echo "$KEYSTORE_FILE" | base64 --decode > app/signing.keystore
         env:
           KEYSTORE_FILE: ${{ secrets.KEYSTORE_FILE }}
 
