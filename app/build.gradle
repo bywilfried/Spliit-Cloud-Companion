@@ -51,7 +51,7 @@ android {
         minSdkVersion 23
         targetSdkVersion 35
         versionCode 1
-        versionName "1.0.0.0"
+        versionName "1.0.0"
 
         resValue "string", "appName", twaManifest.name
         resValue "string", "launcherName", twaManifest.launcherName
@@ -146,7 +146,6 @@ task generateShorcutsFile {
                             'android:data': s.url)
                     'categories'('android:name': 'android.intent.category.LAUNCHER')
                 }
-            }
         }
     shortcutsFile.text = xmlWriter.toString() + '\n'
 }
