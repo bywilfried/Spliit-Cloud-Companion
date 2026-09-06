@@ -2,21 +2,21 @@
 
 # ☁️ Spliit Cloud Companion
 
-### Spliit Cloud, directement sur Android
+### Spliit Cloud, directly on Android
 
-Application Android légère basée sur une **Trusted Web Activity (TWA)** pour utiliser [Spliit Cloud](https://spliit.cloud) comme une application Android.
+A lightweight Android application based on a **Trusted Web Activity (TWA)** that lets you use [Spliit Cloud](https://spliit.cloud) as an Android app.
 
-[Ouvrir Spliit Cloud](https://spliit.cloud) · [Dépôt de Spliit Cloud](https://github.com/antonio-ivanovski/spliit-cloud/)
+[Open Spliit Cloud](https://spliit.cloud) · [Spliit Cloud repository](https://github.com/antonio-ivanovski/spliit-cloud/)
 
 </div>
 
 ---
 
-## À propos
+## About
 
-**Spliit Cloud Companion** est une application Android compagnon permettant d'accéder à l'instance de **Spliit Cloud** hébergée sur **https://spliit.cloud**.
+**Spliit Cloud Companion** is a companion Android application that provides access to the **Spliit Cloud** instance hosted at **https://spliit.cloud**.
 
-Le projet repose sur une **Trusted Web Activity (TWA)** : l'application Android ne réimplémente pas Spliit Cloud. Elle fournit un conteneur Android dédié qui affiche directement l'application web en plein écran.
+The project is built as a **Trusted Web Activity (TWA)**. The Android application does not reimplement Spliit Cloud. Instead, it provides a dedicated Android container that displays the web application directly in a full-screen experience.
 
 ```text
 Android
@@ -32,44 +32,44 @@ https://spliit.cloud
 Spliit Cloud
 ```
 
-## Pourquoi une TWA ?
+## Why a TWA?
 
-Cette approche permet de :
+This approach makes it possible to:
 
-- utiliser Spliit Cloud depuis une application Android dédiée ;
-- profiter d'une expérience plein écran proche d'une application native ;
-- garder l'application web comme source principale de l'expérience utilisateur ;
-- bénéficier des évolutions de Spliit Cloud sans réimplémenter son interface côté Android ;
-- conserver une application Android légère.
+- use Spliit Cloud through a dedicated Android application;
+- provide a full-screen experience close to a native application;
+- keep the web application as the main source of the user experience;
+- benefit from Spliit Cloud updates without reimplementing its interface on Android;
+- keep the Android application lightweight.
 
 ## Spliit Cloud
 
-Le service utilisé par Spliit Cloud Companion est disponible à l'adresse :
+The Spliit Cloud service used by this companion application is available at:
 
 **https://spliit.cloud**
 
-Le code source de l'application web Spliit Cloud est disponible ici :
+The source code of the Spliit Cloud web application is available here:
 
 **https://github.com/antonio-ivanovski/spliit-cloud/**
 
-Ce dépôt concerne uniquement **Spliit Cloud Companion et son intégration Android/TWA**. Pour les fonctionnalités, l'interface ou le fonctionnement de l'application web, consultez le dépôt Spliit Cloud ci-dessus.
+This repository only contains **Spliit Cloud Companion and its Android/TWA integration**. For features, UI changes, or the implementation of the web application itself, please refer to the Spliit Cloud repository above.
 
 ## Trusted Web Activity
 
-Une **Trusted Web Activity** permet à une application Android d'afficher une application web/PWA en plein écran à l'aide d'un navigateur compatible installé sur l'appareil.
+A **Trusted Web Activity** allows an Android application to display a web application/PWA in full screen using a compatible browser installed on the device.
 
-La relation de confiance entre l'application Android et le domaine web repose notamment sur les **Digital Asset Links**.
+Trust between the Android application and the web domain is established through **Digital Asset Links**.
 
-## Crédits
+## Credits
 
-**Spliit Cloud Companion** est un projet compagnon indépendant destiné à faciliter l'utilisation de Spliit Cloud sur Android.
+**Spliit Cloud Companion** is an independent companion project designed to make Spliit Cloud convenient to use on Android.
 
-L'application web **Spliit Cloud** est un projet distinct. Tous les crédits concernant Spliit Cloud, son code source et son développement reviennent à ses auteurs et contributeurs respectifs.
+The **Spliit Cloud** web application is a separate project. All credit for Spliit Cloud, its source code, and its development belongs to its respective authors and contributors.
 
 <div align="center">
 
-**Spliit Cloud dans votre poche.**
+**Spliit Cloud in your pocket.**
 
-[🌐 spliit.cloud](https://spliit.cloud) · [💻 Spliit Cloud sur GitHub](https://github.com/antonio-ivanovski/spliit-cloud/)
+[🌐 spliit.cloud](https://spliit.cloud) · [💻 Spliit Cloud on GitHub](https://github.com/antonio-ivanovski/spliit-cloud/)
 
 </div>
