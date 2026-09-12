@@ -146,6 +146,7 @@ task generateShorcutsFile {
                             'android:data': s.url)
                     'categories'('android:name': 'android.intent.category.LAUNCHER')
                 }
+            }
         }
     shortcutsFile.text = xmlWriter.toString() + '\n'
 }
