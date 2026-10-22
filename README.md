@@ -1,6 +1,5 @@
 <div align="center">
-#
-# ☁️ Spliit Cloud Companion
+# Spliit Cloud Companion
 
 ### Spliit Cloud, directly on Android
 
